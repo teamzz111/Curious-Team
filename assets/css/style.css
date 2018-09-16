@@ -247,4 +247,36 @@ section.information .contenedor .right .btn2 {
   padding-left: 1.5em;
   padding-right: 1.5em;
 }
+
+section.BestSeller {
+  margin-top: 1em;
+}
+
+section.BestSeller .contenedor .subtitle {
+  font-size: 1.1em;
+}
+
+section.BestSeller .contenedor div.containere {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.BestSeller .contenedor div.containere div.boxStore {
+  max-height: 150px;
+  max-width: 150px;
+  height: 250px;
+  width: 25%;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid rgba(97, 96, 96, 0.541);
+}
+
+section.BestSeller .contenedor div.containere div.boxStore img {
+  padding: 1%;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */

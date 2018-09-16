@@ -220,3 +220,29 @@ section.information {
         }
     }
 }
+
+section.BestSeller{
+    margin-top: 1em;
+    .contenedor{
+        .subtitle{
+            font-size: 1.1em;
+        }
+        div.containere{
+            display: flex;
+            justify-content: center;
+            div.boxStore{
+                 max-height: 150px;
+                 max-width: 150px;
+                 height: 250px;
+                 width: 25%;
+                 margin: 1%;
+                 padding: 1%;
+                 border: 1px solid rgba(97, 96, 96, 0.541);
+                 img{
+                     padding: 1%;
+                     width: 100%;
+                 }
+            }
+        }
+    }
+}
