@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background: black;
+}
+
+header .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1%;
+  padding: 2%;
+}
+
+header .nav-bar .left {
+  width: 70%;
+}
+
+header .nav-bar .left img {
+  max-width: 100px;
+}
+
+header .nav-bar .right {
+  width: 30%;
+  color: white;
+  font-family: 'Open Sans';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .nav-bar .right .option .profile .dropdown .items {
+  display: none;
+}
+
+header .nav-bar .right .option .profile .dropdown a {
+  color: white;
+  text-decoration: none;
+}
+
+header .nav-bar .right .option .profile .dropdown i {
+  color: white;
+  margin-right: 0.5em;
+}
+
+header div.categories {
+  background: #fd0000;
+  padding: 1.4%;
+}
+
+header div.categories a {
+  font-family: 'Open Sans';
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid white;
+  padding: 1.4%;
+}
+/*# sourceMappingURL=catalogoStyle.css.map */
