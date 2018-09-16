@@ -21,7 +21,7 @@ header {
         font-family: "Open Sans";
         color: white;
         font-weight: 300;
-        padding-top: 8%;
+        padding-top: 4.5%;
         padding-bottom: 12%;
     }
 
@@ -44,19 +44,29 @@ header {
             ul {
                 display: flex;
                 justify-content: flex-end;
+                align-content: center;
+                align-items: center;
 
                 li {
                     list-style-type: none;
                     margin: 1%;
+                    color: white;
+                    font-size: 0.8em;
+                    i {
+                        color: white;
+                        margin-right: 0.6em;
+                    }
 
                     a {
                         font-family: 'Open Sans';
                         text-decoration: none;
                         color: white;
-                        font-size: 0.8em;
+                    
                     }
 
                     .btn {
+                        margin-left: 2%;
+                        margin-right: 2%;
                         padding: 10%;
                         border: 1px solid white;
                     }
@@ -191,14 +201,17 @@ section.suppliers {
 section.information {
     background: #fd0000;
     margin-top: 1em;
+
     .contenedor {
         padding-top: 0.9em;
         display: fleX;
         max-width: 800px;
         padding-bottom: 0.5em;
         justify-content: center;
+
         .left {
             width: 80%;
+
             p {
                 color: white;
                 margin-bottom: 0;
@@ -210,6 +223,7 @@ section.information {
             display: flex;
             justify-content: center;
             align-content: center;
+
             .btn2 {
                 border: 1px solid white;
                 background: transparent;
@@ -221,27 +235,31 @@ section.information {
     }
 }
 
-section.BestSeller{
+section.BestSeller {
     margin-top: 1em;
-    .contenedor{
-        .subtitle{
+
+    .contenedor {
+        .subtitle {
             font-size: 1.1em;
         }
-        div.containere{
+
+        div.containere {
             display: flex;
             justify-content: center;
-            div.boxStore{
-                 max-height: 150px;
-                 max-width: 150px;
-                 height: 250px;
-                 width: 25%;
-                 margin: 1%;
-                 padding: 1%;
-                 border: 1px solid rgba(97, 96, 96, 0.541);
-                 img{
-                     padding: 1%;
-                     width: 100%;
-                 }
+
+            div.boxStore {
+                max-height: 150px;
+                max-width: 150px;
+                height: 250px;
+                width: 25%;
+                margin: 1%;
+                padding: 1%;
+                border: 1px solid rgba(97, 96, 96, 0.541);
+
+                img {
+                    padding: 1%;
+                    width: 100%;
+                }
             }
         }
     }

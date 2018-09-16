@@ -21,7 +21,7 @@ header h1 {
   font-family: "Open Sans";
   color: white;
   font-weight: 300;
-  padding-top: 8%;
+  padding-top: 4.5%;
   padding-bottom: 12%;
 }
 
@@ -50,21 +50,34 @@ header .nav-bar .right ul {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header .nav-bar .right ul li {
   list-style-type: none;
   margin: 1%;
+  color: white;
+  font-size: 0.8em;
+}
+
+header .nav-bar .right ul li i {
+  color: white;
+  margin-right: 0.6em;
 }
 
 header .nav-bar .right ul li a {
   font-family: 'Open Sans';
   text-decoration: none;
   color: white;
-  font-size: 0.8em;
 }
 
 header .nav-bar .right ul li .btn {
+  margin-left: 2%;
+  margin-right: 2%;
   padding: 10%;
   border: 1px solid white;
 }
