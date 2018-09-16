@@ -70,14 +70,14 @@ header .nav-bar .right ul li .btn {
 }
 
 section.suppliers .navbox {
-  margin-top: -3em;
+  margin-top: -4em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background: white;
   border-radius: 10px;
   font-family: 'Open Sans';
-  border: 0.8px solid #292929;
+  border: 0.8px solid rgba(41, 41, 41, 0.404);
 }
 
 section.suppliers .navbox .childbox:nth-child(4) {
@@ -104,7 +104,7 @@ section.suppliers .navbox .childbox:nth-child(4) .btn {
 section.suppliers .navbox .childbox:nth-child(4) .btn:hover {
   background: white;
   color: black;
-  border-color: black;
+  border-color: rgba(0, 0, 0, 0.603);
   -webkit-transition: 1s linear;
   transition: 1s linear;
 }
@@ -169,11 +169,27 @@ section.suppliers div.stores .containere {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 section.suppliers div.stores .containere .boxStore {
   width: 25%;
   height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-height: 150px;
+  max-width: 150px;
+  border: 1px solid rgba(88, 88, 88, 0.425);
+  margin: 1%;
+  padding: 1%;
 }
 
 section.suppliers div.stores .containere .boxStore img {
@@ -186,5 +202,49 @@ section.suppliers div.stores .containere .boxStore:nth-child(1) {
 
 section.suppliers div.stores .containere .boxStore:nth-child(1) img {
   width: 100%;
+}
+
+section.information {
+  background: #fd0000;
+  margin-top: 1em;
+}
+
+section.information .contenedor {
+  padding-top: 0.9em;
+  display: fleX;
+  max-width: 800px;
+  padding-bottom: 0.5em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.information .contenedor .left {
+  width: 80%;
+}
+
+section.information .contenedor .left p {
+  color: white;
+  margin-bottom: 0;
+}
+
+section.information .contenedor .right {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+section.information .contenedor .right .btn2 {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 /*# sourceMappingURL=style.css.map */
