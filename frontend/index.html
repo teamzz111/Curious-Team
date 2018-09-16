@@ -9,63 +9,115 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="nav-bar">
-        <div class="left">
-            <div class="icon"></div>
-        </div>
-        <div class="right">
-            <ul>
-                <li><a href="#">Search</a></li>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Ayuda</a></li>
-                <li><a href="#" class="btn">Ingresar</a></li>
-            </ul>
-        </div>
+    <header>
+        <div class="contenedor">
 
-    </nav>
-    <section class="main">
-        <div class="mainbox">
-            <div class="title">
-                <h1>Lo que el mundo estaba esperando</h1>
-            </div>
+            <nav class="nav-bar">
+                <div class="left">
+                    <div class="icon">
+                        <img src="../assets/resources/ScotiaShop.png" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Ayuda</a></li>
+                        <li><a href="#" class="btn">Ingresar</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+<h1>Lo que el mundo estaba <br><strong>esperando</strong></h1>
+
         </div>
-    </section>
+    </header>
+
     <section class="suppliers">
-        <div class="navbox">
-            <div class="childbox">
-                <h5>Categoria del producto</h5>
-                <h3>Comida</h3>
-                <i class="fas fa-angle-down" style="color:#FD0000"></i>
-                <hr>
-            </div>
-            <div class="childbox">
-                <h5>Tienda</h5>
-                <h3>Tostao'</h3>
-                <i class="fas fa-angle-down" style="color:#FD0000"></i>
-                <hr>
-            </div>
-            <div class="childbox">
-                <h5>Producto</h5>
-                <h3>Sandwich</h3>
-                <i class="fas fa-angle-down" style="color:#FD0000"></i>
-                <hr>
-            </div>
-            <div class="childbox">
-                <button class="btn">Comprar</button>
+        <div class="contenedor">
+
+            <div class="navbox">
+                <div class="childbox">
+                    <h5>Categoría del producto</h5>
+                    <div class="dropdown show" style="border: 1px solid black; width: 80%; ">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="display: flex;
+justify-content: center; align-content: center; justify-items: center; 
+align-items: center;">
+                            COMIDA
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="childbox">
+                    <h5>Tienda</h5>
+                    <div class="dropdown show" style="border: 1px solid black; width: 80%; ">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="display: flex;
+justify-content: center; align-content: center; justify-items: center; 
+align-items: center;">
+                            TOSTAO'
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="childbox">
+                    <h5>Producto</h5>
+                    <div class="dropdown show" style="border: 1px solid black; width: 80%; ">
+                        <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" style="display: flex;
+justify-content: center; align-content: center; justify-items: center; 
+align-items: center;">
+                            SÁNDIWCH
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="childbox">
+                    <button class="btn" style="background: #fd0000; color: white; margin-top: 1.5em;">Comprar</button>
+                </div>
             </div>
         </div>
         <div class="stores">
-            <div class="subtitle"><label>Especialmente para ti...</label></div>
-            <div class="container">
-                <div class="boxStore"></div>
-                <div class="boxStore"></div>
-                <div class="boxStore"></div>
-                <div class="boxStore"></div>
-                <div class="boxStore"></div>
+            <div class="contenedor">
+
+                <div class="subtitle"><label>Especialmente para ti...</label></div>
+                <div class="containere">
+                    <div class="boxStore">
+                        
+                        <img src="../assets/resources/Dr-Martens-Bouncing-Ball-4-colour-logo-LARGE.png" alt="">
+
+                    </div>
+                    <div class="boxStore">
+                        <img src="../assets/resources/dominos.jpg" alt="">
+                    </div>
+                    <div class="boxStore">
+                        <img src="../assets/resources/adidas-2-sticker-logo-1.jpeg" alt="">
+                    </div>
+                    <div class="boxStore"></div>
+                    <div class="boxStore"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -79,14 +131,21 @@
     </section>
     <section class="BestSeller">
         <div class="subtitle"><label>Lo más vendido</label></div>
-        <div class="container">
-            <div class="boxStore"></div>
+        <div class="containere">
+            <div class="boxStore">
+            </div>
             <div class="boxStore"></div>
             <div class="boxStore"></div>
             <div class="boxStore"></div>
             <div class="boxStore"></div>
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <script src="../assets/js/app.js"></script>
 </body>
 
